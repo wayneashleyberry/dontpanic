@@ -3,6 +3,7 @@
 ---
 
 [![Go Report Card](https://goreportcard.com/badge/github.com/wayneashleyberry/dontpanic)](https://goreportcard.com/report/github.com/wayneashleyberry/dontpanic)
+[![Build Status](https://travis-ci.org/wayneashleyberry/dontpanic.svg?branch=master)](https://travis-ci.org/wayneashleyberry/dontpanic)
 
 ```
 go get github.com/wayneashleyberry/dontpanic
