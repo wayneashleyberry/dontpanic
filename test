@@ -1,3 +1,5 @@
+// this file gets renamed to test.go for testing
+// running dontpanic against this file should error
 package main
 
 func foo() {
