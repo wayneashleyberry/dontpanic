@@ -1,7 +1,10 @@
 package main
 
-import "fmt"
+import (
+	"github.com/wayneashleyberry/dontpanic/pkg/paniccheck"
+	"golang.org/x/tools/go/analysis/singlechecker"
+)
 
 func main() {
-	fmt.Println("don't panic")
+	singlechecker.Main(paniccheck.Analyzer)
 }
