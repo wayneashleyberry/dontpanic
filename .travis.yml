@@ -5,3 +5,8 @@ env:
 
 go:
   - "1.12"
+
+script:
+  - go test -v ./...
+  - go install .
+  - dontpanic ./...
