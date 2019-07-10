@@ -1,3 +1,7 @@
+[_Don't panic™_](https://github.com/golang/go/wiki/CodeReviewComments#dont-panic)
+
+---
+
 [![Go Report Card](https://goreportcard.com/badge/github.com/wayneashleyberry/dontpanic)](https://goreportcard.com/report/github.com/wayneashleyberry/dontpanic)
 
 ```
