@@ -11,8 +11,8 @@ import (
 
 // Analyzer implementation
 var Analyzer = &analysis.Analyzer{
-	Name:     "paniccheck",
-	Doc:      "check for panics",
+	Name:     "dontpanic",
+	Doc:      "don't allow panic() in your go code",
 	Run:      run,
 	Requires: []*analysis.Analyzer{inspect.Analyzer},
 }
