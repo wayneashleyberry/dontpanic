@@ -1,3 +1,5 @@
+[![Go Report Card](https://goreportcard.com/badge/github.com/wayneashleyberry/dontpanic)](https://goreportcard.com/report/github.com/wayneashleyberry/dontpanic)
+
 ```
 go get github.com/wayneashleyberry/dontpanic
 ```
