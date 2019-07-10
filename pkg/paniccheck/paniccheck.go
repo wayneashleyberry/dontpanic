@@ -27,13 +27,20 @@ func run(pass *analysis.Pass) (interface{}, error) {
 	// The anonymous function will be only called for the ast nodes whose type
 	// matches an element in the filter
 	nodeFilter := []ast.Node{
-		(*ast.Field)(nil),
+		(*ast.CallExpr)(nil),
 	}
 
 	// this is basically the same as ast.Inspect(), only we don't return a
 	// boolean anymore as it'll visit all the nodes based on the filter.
 	inspect.Preorder(nodeFilter, func(n ast.Node) {
-		// TODO
+		ce := n.(*ast.CallExpr)
+		ident, ok := ce.Fun.(*ast.Ident)
+		if !ok {
+			return
+		}
+		if ident.Name == "panic" {
+			pass.Reportf(ce.Pos(), "don't panic")
+		}
 	})
 
 	return nil, nil
