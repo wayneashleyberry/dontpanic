@@ -2,8 +2,9 @@
 
 ---
 
-[![Go Report Card](https://goreportcard.com/badge/github.com/wayneashleyberry/dontpanic)](https://goreportcard.com/report/github.com/wayneashleyberry/dontpanic)
 [![Build Status](https://travis-ci.org/wayneashleyberry/dontpanic.svg?branch=master)](https://travis-ci.org/wayneashleyberry/dontpanic)
+[![Go Report Card](https://goreportcard.com/badge/github.com/wayneashleyberry/dontpanic)](https://goreportcard.com/report/github.com/wayneashleyberry/dontpanic)
+[![GolangCI](https://golangci.com/badges/github.com/wayneashleyberry/dontpanic.svg)](https://golangci.com/r/github.com/wayneashleyberry/dontpanic)
 
 ```
 go get github.com/wayneashleyberry/dontpanic
