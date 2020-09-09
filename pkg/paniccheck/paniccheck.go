@@ -1,4 +1,4 @@
-// Package paniccheck checks for panics
+// Package paniccheck checks for panics.
 package paniccheck
 
 import (
@@ -9,7 +9,7 @@ import (
 	"golang.org/x/tools/go/ast/inspector"
 )
 
-// Analyzer implementation
+// Analyzer implementation.
 var Analyzer = &analysis.Analyzer{
 	Name:     "dontpanic",
 	Doc:      "don't allow panic() in your go code",
